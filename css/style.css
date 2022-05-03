@@ -1,0 +1,37 @@
+.menu {
+    background-color: rgb(68, 68, 68); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .menu li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .menu li a{
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .menu li a:hover{
+    background: rgb(188, 9, 9);
+  }
+
+  h1, h2, h3, p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  body {
+    background: url(../img/fondopanda.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
